@@ -5,17 +5,20 @@ import Container from "@/components/container.astro";
 import Sectionhead from "@/components/sectionhead.astro";
 import WaitlistCta from "@/components/waitlist-cta.astro";
 import { Icon } from "astro-icon/components";
+import { getLangFromUrl, t } from "@/utils/i18n";
+
+const lang = getLangFromUrl(Astro.url);
 
 // Get products sorted by order
 const products = (await getCollection("products")).sort((a, b) => a.data.order - b.data.order);
 ---
 
-<Layout title="I Nostri Prodotti">
+<Layout title={t(lang, "products.title")}>
   <Container>
     <Sectionhead>
-      <Fragment slot="title">I Nostri Prodotti</Fragment>
+      <Fragment slot="title">{t(lang, "products.title")}</Fragment>
       <Fragment slot="desc">
-        Soluzioni cloud complete per tutte le tue esigenze
+        {t(lang, "products.subtitle")}
       </Fragment>
     </Sectionhead>
 
@@ -46,7 +49,7 @@ const products = (await getCollection("products")).sort((a, b) => a.data.order -
               {/* Coming Soon Badge */}
               {product.data.status === 'coming-soon' && (
                 <span class="inline-block gradient-crown text-white text-sm font-bold px-4 py-2 rounded-full mb-4">
-                  In arrivo
+                  {t(lang, "common.comingSoon")}
                 </span>
               )}
 
@@ -69,7 +72,7 @@ const products = (await getCollection("products")).sort((a, b) => a.data.order -
               {product.data.features && product.data.features.length > 0 && (
                 <div class="mb-8">
                   <h3 class="text-lg font-bold text-[#333333] mb-4">
-                    Caratteristiche Principali
+                    {t(lang, "products.features")}
                   </h3>
                   <ul class="space-y-3">
                     {product.data.features.map((feature) => (

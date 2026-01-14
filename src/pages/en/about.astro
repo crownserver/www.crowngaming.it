@@ -4,6 +4,9 @@ import Layout from "@/layouts/Layout.astro";
 import Container from "@/components/container.astro";
 import Sectionhead from "@/components/sectionhead.astro";
 import FounderCard from "@/components/founder-card.astro";
+import { getLangFromUrl, t } from "@/utils/i18n";
+
+const lang = getLangFromUrl(Astro.url);
 
 // Get the company story
 const aboutEntries = await getCollection("about");
@@ -16,11 +19,11 @@ const founders = (await getCollection("founders", ({ data }) => {
 })).sort((a, b) => a.data.order - b.data.order);
 ---
 
-<Layout title="Chi Siamo">
+<Layout title={t(lang, "about.title")}>
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Chi Siamo</Fragment>
-      <Fragment slot="desc">Il team dietro CrownServer</Fragment>
+      <Fragment slot="title">{t(lang, "about.title")}</Fragment>
+      <Fragment slot="desc">{t(lang, "about.subtitle")}</Fragment>
     </Sectionhead>
 
     {/* Company Story */}
@@ -33,7 +36,7 @@ const founders = (await getCollection("founders", ({ data }) => {
     {/* Founders Section */}
     <div class="mt-24 mb-12">
       <h2 class="text-4xl font-bold text-center text-[#333333] mb-16">
-        I Nostri Fondatori
+        {t(lang, "about.foundersTitle")}
       </h2>
       <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
         {founders.map((founder) => (
