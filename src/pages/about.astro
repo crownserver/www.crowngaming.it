@@ -8,14 +8,16 @@ import { getLangFromUrl, t } from "@/utils/i18n";
 
 const lang = getLangFromUrl(Astro.url);
 
-// Get the company story
-const aboutEntries = await getCollection("about");
-const companyStory = aboutEntries.find((entry) => entry.slug === "company-story");
+// Get the company story (filtered by language)
+const aboutEntries = await getCollection("about", ({ data }) => {
+  return data.lang === lang;
+});
+const companyStory = aboutEntries.find((entry) => entry.slug.includes("company-story"));
 const { Content } = companyStory ? await companyStory.render() : { Content: null };
 
-// Get founders sorted by order
+// Get founders sorted by order (filtered by language)
 const founders = (await getCollection("founders", ({ data }) => {
-  return !data.draft && data.publishDate < new Date();
+  return !data.draft && data.publishDate < new Date() && data.lang === lang;
 })).sort((a, b) => a.data.order - b.data.order);
 ---
 

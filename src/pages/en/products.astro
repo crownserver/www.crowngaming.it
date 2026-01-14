@@ -9,8 +9,10 @@ import { getLangFromUrl, t } from "@/utils/i18n";
 
 const lang = getLangFromUrl(Astro.url);
 
-// Get products sorted by order
-const products = (await getCollection("products")).sort((a, b) => a.data.order - b.data.order);
+// Get products sorted by order, filtered by language
+const products = (await getCollection("products", ({ data }) => {
+  return data.lang === lang;
+})).sort((a, b) => a.data.order - b.data.order);
 ---
 
 <Layout title={t(lang, "products.title")}>

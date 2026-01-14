@@ -18,9 +18,7 @@ const lang = getLangFromUrl(Astro.url);
     <main class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-20 md:pb-24 gap-12">
       <div class="order-2 lg:order-1">
         <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
-          {t(lang, "hero.title").replace("{highlight}", "")}
-          <span class="text-gradient-crown">{t(lang, "hero.title").includes("simple") ? "simple" : "semplice"}</span>
-          {t(lang, "hero.title").includes("simple") ? " cloud for the whole family" : " per tutta la famiglia"}
+          Il cloud <span class="text-gradient-crown">semplice</span> per tutta la famiglia
         </h1>
         <p class="text-lg mt-6 text-gray-600 max-w-xl leading-relaxed">
           {t(lang, "hero.subtitle")}
