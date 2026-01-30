@@ -257,20 +257,19 @@ Il sito è configurato per Netlify con `netlify.toml`:
 
 ### Cloudflare Pages
 
-Il sito è configurato per Cloudflare Pages con `wrangler.toml`.
-
 **Opzione 1: Deploy dalla Dashboard (Consigliato)**
 
 1. Accedi a [Cloudflare Dashboard](https://dash.cloudflare.com/)
-2. Vai su **Workers & Pages** > **Create application** > **Pages**
-3. Connetti il tuo repository GitHub
+2. Vai su **Workers & Pages** > **Create application** > **Pages** > **Connect to Git**
+3. Seleziona il tuo repository GitHub `crownserver/www.crownserver.it`
 4. Configura il build:
    - **Framework preset**: `Astro`
    - **Build command**: `npm run build`
    - **Build output directory**: `dist`
-   - **Root directory**: `/` (default)
-5. **Importante**: Verifica in **Environment variables** che non ci sia `NPM_FLAGS` impostato
-6. Clicca su **Save and Deploy**
+   - **Production branch**: `main`
+5. Clicca su **Save and Deploy**
+
+Da questo momento, ogni push sul branch `main` farà automaticamente il deploy in produzione!
 
 **Opzione 2: Deploy da CLI con Wrangler**
 
@@ -284,8 +283,11 @@ wrangler login
 # Build del progetto
 npm run build
 
-# Deploy su Cloudflare Pages
+# Deploy su Cloudflare Pages (prima volta)
 wrangler pages deploy dist --project-name=crownserver-it
+
+# Deploy successivi
+wrangler pages deploy dist
 ```
 
 **Configurazione Automatica:**
