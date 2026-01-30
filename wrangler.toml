@@ -1,0 +1,9 @@
+name = "crownserver-it"
+pages_build_output_dir = "dist"
+
+[site]
+bucket = "./dist"
+
+# Cloudflare Pages configuration
+# This file is used for local development with Wrangler CLI
+# For production deploys, configure your project in the Cloudflare Dashboard

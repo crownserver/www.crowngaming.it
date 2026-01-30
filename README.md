@@ -19,7 +19,7 @@ Costruito con [Astro](https://astro.build) e Tailwind CSS v4.
 - ✅ Waitlist modal (placeholder)
 - ✅ Contact form
 - ✅ Ottimizzato per SEO
-- ✅ Pronto per Netlify
+- ✅ Pronto per Netlify e Cloudflare Pages
 
 ## Getting Started
 
@@ -255,12 +255,47 @@ Il sito è configurato per Netlify con `netlify.toml`:
 3. Netlify rileverà automaticamente le impostazioni
 4. Deploy!
 
+### Cloudflare Pages
+
+Il sito è configurato per Cloudflare Pages con `wrangler.toml`.
+
+**Opzione 1: Deploy dalla Dashboard (Consigliato)**
+
+1. Accedi a [Cloudflare Dashboard](https://dash.cloudflare.com/)
+2. Vai su **Workers & Pages** > **Create application** > **Pages**
+3. Connetti il tuo repository GitHub
+4. Configura il build:
+   - **Build command**: `npm run build`
+   - **Build output directory**: `dist`
+   - **Root directory**: `/` (default)
+5. Clicca su **Save and Deploy**
+
+**Opzione 2: Deploy da CLI con Wrangler**
+
+```bash
+# Installa Wrangler CLI
+npm install -g wrangler
+
+# Login a Cloudflare
+wrangler login
+
+# Build del progetto
+npm run build
+
+# Deploy su Cloudflare Pages
+wrangler pages deploy dist --project-name=crownserver-it
+```
+
+**Configurazione Automatica:**
+- Branch di produzione: `main` (auto-deploy)
+- Branch di preview: tutti gli altri branch
+- URL di produzione: `crownserver-it.pages.dev` (personalizzabile con dominio custom)
+
 ### Altri Providers
 
 Il sito può essere deployato su qualsiasi provider che supporta siti statici:
 
 - **Vercel**: Aggiungi il progetto e seleziona Astro
-- **Cloudflare Pages**: Comando: `npm run build`, Output: `dist`
 - **GitHub Pages**: Usa GitHub Actions con l'action ufficiale di Astro
 
 ## Link Social Media
