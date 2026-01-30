@@ -265,10 +265,12 @@ Il sito è configurato per Cloudflare Pages con `wrangler.toml`.
 2. Vai su **Workers & Pages** > **Create application** > **Pages**
 3. Connetti il tuo repository GitHub
 4. Configura il build:
+   - **Framework preset**: `Astro`
    - **Build command**: `npm run build`
    - **Build output directory**: `dist`
    - **Root directory**: `/` (default)
-5. Clicca su **Save and Deploy**
+5. **Importante**: Verifica in **Environment variables** che non ci sia `NPM_FLAGS` impostato
+6. Clicca su **Save and Deploy**
 
 **Opzione 2: Deploy da CLI con Wrangler**
 
@@ -290,6 +292,72 @@ wrangler pages deploy dist --project-name=crownserver-it
 - Branch di produzione: `main` (auto-deploy)
 - Branch di preview: tutti gli altri branch
 - URL di produzione: `crownserver-it.pages.dev` (personalizzabile con dominio custom)
+
+**Configurare Dominio Custom (www.crownserver.it):**
+
+Hai due opzioni per collegare il tuo dominio:
+
+**Opzione A: Usare Cloudflare come Nameserver (Consigliato)**
+
+Questa è l'opzione più semplice e offre prestazioni migliori.
+
+1. Nella Cloudflare Dashboard, vai su **Websites** > **Add a site**
+2. Inserisci `crownserver.it` e segui il wizard
+3. Cloudflare ti mostrerà i nameserver da configurare (es. `kate.ns.cloudflare.com` e `marc.ns.cloudflare.com`)
+4. Vai sul pannello del tuo registrar (dove hai comprato il dominio)
+5. Trova la sezione **Nameservers** o **DNS Settings**
+6. Sostituisci i nameserver attuali con quelli forniti da Cloudflare
+7. Attendi la propagazione DNS (può richiedere fino a 24 ore, solitamente meno)
+8. Una volta attivo, vai su **Workers & Pages** > seleziona il tuo progetto
+9. Vai su **Custom domains** > **Set up a custom domain**
+10. Inserisci `www.crownserver.it` e `crownserver.it`
+11. Cloudflare configurerà automaticamente i record DNS e il certificato SSL
+
+**Opzione B: Mantenere il Registrar Attuale**
+
+Se preferisci mantenere il DNS sul tuo registrar:
+
+1. Nella Cloudflare Pages Dashboard, vai sul tuo progetto
+2. Vai su **Custom domains** > **Set up a custom domain**
+3. Inserisci `www.crownserver.it`
+4. Cloudflare ti mostrerà un record CNAME da configurare
+5. Sul pannello del tuo registrar, aggiungi questi record DNS:
+
+```
+Tipo: CNAME
+Nome: www
+Valore: crownserver-it.pages.dev
+TTL: Auto (o 3600)
+
+Tipo: CNAME
+Nome: @ (o root/crownserver.it)
+Valore: crownserver-it.pages.dev
+TTL: Auto (o 3600)
+```
+
+6. Se il registrar non supporta CNAME per il dominio root (@), usa invece:
+
+```
+Tipo: A
+Nome: @
+Valore: [IP fornito da Cloudflare Pages]
+TTL: Auto
+```
+
+7. Attendi la propagazione DNS (15-60 minuti solitamente)
+8. Cloudflare emetterà automaticamente un certificato SSL gratuito
+
+**Verifica Configurazione:**
+
+Dopo aver configurato il DNS, puoi verificare con:
+
+```bash
+# Verifica record CNAME
+dig www.crownserver.it CNAME
+
+# Verifica propagazione
+nslookup www.crownserver.it
+```
 
 ### Altri Providers
 
