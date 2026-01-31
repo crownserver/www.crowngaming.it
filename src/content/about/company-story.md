@@ -6,13 +6,15 @@ lang: "it"
 
 ## La Nostra Missione
 
-CrownServer nasce dall'idea che la tecnologia cloud dovrebbe essere accessibile a tutti, non solo alle grandi aziende. Crediamo che ogni famiglia meriti di avere i propri dati al sicuro, protetti e sempre accessibili, senza dover essere esperti di tecnologia.
+CrownServer nasce dall'idea che la tecnologia cloud dovrebbe essere accessibile a tutti, non solo alle grandi aziende. Crediamo che ogni famiglia e ogni piccola realtà meriti di avere i propri dati al sicuro, protetti e sempre accessibili, senza dover essere esperti di tecnologia.
 
 ## Da Dove Veniamo
 
-La nostra storia inizia nel 2024, quando quattro amici appassionati di tecnologia si sono riuniti con un obiettivo comune: creare servizi cloud pensati per le persone, non solo per le aziende. Lavorando nel settore tech da anni, avevamo visto troppo spesso servizi complicati, interfacce confuse e prezzi poco trasparenti.
+La nostra storia inizia nel 2025, quando quattro giovani professionisti appassionati di tecnologia si sono riuniti con un obiettivo comune: creare servizi IT pensati per le persone e le piccole imprese, non solo per le grandi corporation.
 
-Volevamo fare le cose diversamente.
+Alex Massaroni, sviluppatore con anni di esperienza nello sviluppo di soluzioni cloud, ha incontrato Matteo Munetti e Matteo Fiacco, due sysadmin con una passione condivisa per l'infrastruttura e la sicurezza dei sistemi. A loro si è unito Nicolò Ceccarelli, esperto di marketing digitale, che condivideva la visione di rendere la tecnologia più accessibile e comprensibile.
+
+Lavorando nel settore tech, avevamo visto troppo spesso servizi complicati, interfacce confuse e prezzi poco trasparenti. Volevamo fare le cose diversamente.
 
 ## I Nostri Valori
 
@@ -30,6 +32,6 @@ Siamo un'azienda italiana, con server in Italia e supporto clienti in italiano. 
 
 ## Il Futuro
 
-Stiamo lavorando per lanciare i nostri primi servizi nel 2026. Il nostro obiettivo è diventare il punto di riferimento per le famiglie italiane che cercano soluzioni cloud affidabili, sicure e facili da usare.
+Il nostro obiettivo è ambizioso: diventare completamente indipendenti entro il 2027, offrendo servizi di consulenza infrastrutturale, supporto sistemistico e hosting web di qualità superiore. Vogliamo essere il punto di riferimento per le famiglie e le piccole imprese italiane che cercano soluzioni IT affidabili, sicure e facili da usare.
 
 Unisciti alla nostra waitlist e sii tra i primi a provare CrownServer quando saremo pronti al lancio.
