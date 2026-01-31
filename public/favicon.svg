@@ -1,25 +1,18 @@
-<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="400" height="400" fill="#121212"/>
+    
     <defs>
-        <linearGradient id="crownGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" style="stop-color:#00c6fb;stop-opacity:1" />
-            <stop offset="100%" style="stop-color:#005bea;stop-opacity:1" />
+        <linearGradient id="gamerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#00F0FF;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#FF00FF;stop-opacity:1" />
         </linearGradient>
     </defs>
-
-    <!-- Crown base -->
-    <path d="M20 130 L180 130 L160 160 L40 160 Z" fill="url(#crownGradient)"/>
-
-    <!-- Crown points -->
-    <path d="M20 120 L50 40 L80 120 L100 20 L120 120 L150 40 L180 120"
-          stroke="url(#crownGradient)"
-          stroke-width="8"
-          fill="none"
-          stroke-linejoin="round"
-          stroke-linecap="round"/>
-
-    <!-- Cross in center -->
-    <path d="M90 70 L110 70 M100 60 L100 80"
-          stroke="#FFFFFF"
-          stroke-width="4"
-          stroke-linecap="round"/>
+    
+    <g transform="translate(100, 80)">
+        <path d="M20 130 L180 130 L160 160 L40 160 Z" fill="url(#gamerGradient)"/>
+        <path d="M20 120 L50 40 L80 120 L100 20 L120 120 L150 40 L180 120" stroke="url(#gamerGradient)" stroke-width="8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+        <path d="M90 70 L110 70 M100 60 L100 80" stroke="#121212" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    
+    <text x="200" y="300" font-family="Arial, sans-serif" font-weight="900" font-size="32" text-anchor="middle" fill="white" letter-spacing="2">CROWN<tspan fill="url(#gamerGradient)">GAMING</tspan></text>
 </svg>
