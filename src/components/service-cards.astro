@@ -7,18 +7,18 @@ const lang = getLangFromUrl(Astro.url);
 
 const services = [
   {
-    key: 'storage',
-    icon: 'bx:cloud',
+    key: 'consulting',
+    icon: 'bx:briefcase',
     status: 'coming-soon'
   },
   {
-    key: 'mail',
-    icon: 'bx:envelope',
+    key: 'support',
+    icon: 'bx:support',
     status: 'coming-soon'
   },
   {
-    key: 'backup',
-    icon: 'bx:data',
+    key: 'hosting',
+    icon: 'bx:server',
     status: 'coming-soon'
   }
 ];
@@ -27,7 +27,7 @@ const services = [
 <Container>
   <div class="grid md:grid-cols-3 gap-8 mt-16">
     {services.map((service) => (
-      <div class="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100">
+      <div class="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-300">
         {/* Coming Soon Badge */}
         {service.status === 'coming-soon' && (
           <div class="absolute top-4 right-4">

@@ -14,17 +14,17 @@
   "services": {
     "title": "Our Services",
     "subtitle": "Everything you need to protect and manage your data in the cloud",
-    "storage": {
-      "title": "Cloud Storage",
-      "tagline": "Secure storage for photos and documents"
+    "consulting": {
+      "title": "Infrastructure Consulting",
+      "tagline": "Professional consulting for your IT infrastructure"
     },
-    "mail": {
-      "title": "Cloud Mail",
-      "tagline": "Professional and secure email"
+    "support": {
+      "title": "System Support",
+      "tagline": "Specialized technical support for your systems"
     },
-    "backup": {
-      "title": "Cloud Backup",
-      "tagline": "Automatic backup of your devices"
+    "hosting": {
+      "title": "Website Hosting",
+      "tagline": "Reliable and high-performance hosting for your website"
     }
   },
   "whyUs": {
