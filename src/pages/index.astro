@@ -8,6 +8,7 @@ import WaitlistCta from "@/components/waitlist-cta.astro";
 import Button from "@/components/ui/button.astro";
 import { Icon } from "astro-icon/components";
 import { getLangFromUrl, t, getLocalizedPath } from "@/utils/i18n";
+import crownSvg from "@/assets/crown.svg";
 
 const lang = getLangFromUrl(Astro.url);
 ---
@@ -55,7 +56,7 @@ const lang = getLangFromUrl(Astro.url);
           </div>
           {/* Crown icon */}
           <div class="relative z-10">
-            <Icon name="bx:crown" class="w-48 h-48 text-white" />
+            <img src={crownSvg.src} alt="CrownServer" class="w-48 h-48" />
           </div>
         </div>
       </div>
