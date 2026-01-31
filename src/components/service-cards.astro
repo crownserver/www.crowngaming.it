@@ -7,27 +7,22 @@ const lang = getLangFromUrl(Astro.url);
 
 const services = [
   {
-    key: 'consulting',
-    icon: 'bx:briefcase',
+    key: 'minecraft',
+    icon: 'bx:cube',
     status: 'coming-soon'
   },
   {
-    key: 'support',
-    icon: 'bx:support',
-    status: 'coming-soon'
-  },
-  {
-    key: 'hosting',
-    icon: 'bx:server',
+    key: 'hytale',
+    icon: 'bx:game',
     status: 'coming-soon'
   }
 ];
 ---
 
 <Container>
-  <div class="grid md:grid-cols-3 gap-8 mt-16">
+  <div class="grid md:grid-cols-2 gap-8 mt-16">
     {services.map((service) => (
-      <div class="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-300">
+      <div class="group relative bg-[#1a1a1a] rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-800 hover:border-[#00F0FF]/30">
         {/* Coming Soon Badge */}
         {service.status === 'coming-soon' && (
           <div class="absolute top-4 right-4">
@@ -43,19 +38,19 @@ const services = [
         </div>
 
         {/* Title */}
-        <h3 class="text-2xl font-bold text-[#333333] mb-3">
+        <h3 class="text-2xl font-bold text-[#e0e0e0] mb-3">
           {t(lang, `services.${service.key}.title`)}
         </h3>
 
         {/* Tagline */}
-        <p class="text-gray-600 mb-6">
+        <p class="text-gray-400 mb-6">
           {t(lang, `services.${service.key}.tagline`)}
         </p>
 
         {/* Learn More Link */}
         <a
           href={getLocalizedPath("/products", lang)}
-          class="inline-flex items-center gap-2 text-[#005bea] font-medium hover:gap-3 transition-all"
+          class="inline-flex items-center gap-2 text-[#00F0FF] font-medium hover:gap-3 transition-all"
         >
           {t(lang, "common.learnMore")}
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

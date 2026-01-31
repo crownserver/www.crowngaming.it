@@ -19,9 +19,9 @@ const lang = getLangFromUrl(Astro.url);
     <main class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-20 md:pb-24 gap-12">
       <div class="order-2 lg:order-1">
         <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
-          <span class="text-gradient-crown">Simple</span> cloud for the whole family
+          <span class="text-gradient-crown">Professional</span> gaming servers for your community
         </h1>
-        <p class="text-lg mt-6 text-gray-600 max-w-xl leading-relaxed">
+        <p class="text-lg mt-6 text-gray-400 max-w-xl leading-relaxed">
           {t(lang, "hero.subtitle")}
         </p>
         <div class="mt-8 flex flex-col sm:flex-row gap-4">
@@ -40,23 +40,23 @@ const lang = getLangFromUrl(Astro.url);
             class="flex gap-2 items-center justify-center"
           >
             {t(lang, "common.learnMore")}
-            <Icon class="text-[#333333] w-4 h-4" name="bx:right-arrow-alt" />
+            <Icon class="text-[#e0e0e0] w-4 h-4" name="bx:right-arrow-alt" />
           </Button>
         </div>
       </div>
 
       {/* Hero Image Placeholder */}
       <div class="order-1 lg:order-2">
-        <div class="w-full aspect-square max-w-lg mx-auto bg-white rounded-3xl flex items-center justify-center relative overflow-hidden shadow-xl border border-gray-200">
+        <div class="w-full aspect-square max-w-lg mx-auto bg-[#1a1a1a] rounded-3xl flex items-center justify-center relative overflow-hidden shadow-2xl border border-[#00F0FF]/20">
           {/* Decorative circles */}
-          <div class="absolute inset-0 opacity-5">
-            <div class="absolute top-10 left-10 w-32 h-32 bg-gray-400 rounded-full"></div>
-            <div class="absolute bottom-10 right-10 w-40 h-40 bg-gray-400 rounded-full"></div>
-            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-gray-400 rounded-full"></div>
+          <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-10 left-10 w-32 h-32 bg-gradient-to-br from-[#00F0FF] to-[#FF00FF] rounded-full blur-2xl"></div>
+            <div class="absolute bottom-10 right-10 w-40 h-40 bg-gradient-to-br from-[#FF00FF] to-[#00F0FF] rounded-full blur-2xl"></div>
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-gradient-to-br from-[#00F0FF] to-[#FF00FF] rounded-full blur-3xl"></div>
           </div>
           {/* Crown icon */}
           <div class="relative z-10">
-            <img src={crownSvg.src} alt="CrownServer" class="w-48 h-48" />
+            <img src={crownSvg.src} alt="CrownGaming" class="w-48 h-48" />
           </div>
         </div>
       </div>

@@ -8,11 +8,11 @@
     system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol', 'Noto Color Emoji';
 
-  /* CrownServer Brand Colors */
-  --color-crown-cyan: #00c6fb;
-  --color-crown-blue: #005bea;
-  --color-crown-bg: #F5F7FA;
-  --color-crown-text: #333333;
+  /* CrownGaming Brand Colors - Gaming Theme */
+  --color-crown-cyan: #00F0FF;
+  --color-crown-magenta: #FF00FF;
+  --color-crown-bg: #0a0a0a;
+  --color-crown-text: #e0e0e0;
 }
 
 /*
@@ -40,11 +40,11 @@
 
 @layer utilities {
   .gradient-crown {
-    background: linear-gradient(135deg, #00c6fb 0%, #005bea 100%);
+    background: linear-gradient(135deg, #00F0FF 0%, #FF00FF 100%);
   }
 
   .text-gradient-crown {
-    background: linear-gradient(135deg, #00c6fb 0%, #005bea 100%);
+    background: linear-gradient(135deg, #00F0FF 0%, #FF00FF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

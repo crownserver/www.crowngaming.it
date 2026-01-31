@@ -10,27 +10,27 @@ const { variant = 'default' } = Astro.props;
 const socialLinks = [
   {
     name: 'Discord',
-    url: 'https://discord.gg/crownserver',
+    url: 'https://discord.gg/crowngaming',
     icon: 'simple-icons:discord',
   },
   {
     name: 'X (Twitter)',
-    url: 'https://x.com/crownserver',
+    url: 'https://x.com/crowngaming',
     icon: 'simple-icons:x',
   },
   {
     name: 'Instagram',
-    url: 'https://instagram.com/crownserver',
+    url: 'https://instagram.com/crowngaming',
     icon: 'simple-icons:instagram',
   },
   {
     name: 'TikTok',
-    url: 'https://tiktok.com/@crownserver',
+    url: 'https://tiktok.com/@crowngaming',
     icon: 'simple-icons:tiktok',
   },
   {
     name: 'Threads',
-    url: 'https://threads.net/@crownserver',
+    url: 'https://threads.net/@crowngaming',
     icon: 'simple-icons:threads',
   },
   {
@@ -54,7 +54,7 @@ const sizeClass = variant === 'large' ? 'w-6 h-6' : 'w-5 h-5';
       href={social.url}
       target="_blank"
       rel="noopener noreferrer"
-      class="text-gray-600 hover:text-[#005bea] transition"
+      class="text-gray-400 hover:text-[#00F0FF] transition"
       aria-label={social.name}
     >
       <Icon name={social.icon} class={sizeClass} />

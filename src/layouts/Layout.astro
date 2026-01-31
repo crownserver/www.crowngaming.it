@@ -23,8 +23,8 @@ const resolvedImageWithDomain = new URL(
 const { title } = Astro.props;
 
 const makeTitle = title
-  ? title + " | " + "CrownServer"
-  : "CrownServer - Il cloud semplice per tutta la famiglia";
+  ? title + " | " + "CrownGaming"
+  : "CrownGaming - Gaming server hosting professionale";
 ---
 
 <!doctype html>
@@ -38,22 +38,22 @@ const makeTitle = title
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={makeTitle}
-      description="CrownServer offre soluzioni cloud affidabili per famiglie: cloud storage, email professionale e backup automatico. Servizi italiani, semplici e sicuri."
+      description="CrownGaming offre hosting professionale per server di gioco: Minecraft, Hytale e altro. Prestazioni elevate, supporto dedicato e infrastruttura ottimizzata per il gaming."
       canonical={canonicalURL}
       twitter={{
-        creator: "@crownserver",
-        site: "@crownserver",
+        creator: "@crowngaming",
+        site: "@crowngaming",
         card: "summary_large_image",
       }}
       openGraph={{
         basic: {
           url: canonicalURL,
           type: "website",
-          title: `CrownServer - Il cloud semplice per tutta la famiglia`,
+          title: `CrownGaming - Gaming Server Hosting Professionale`,
           image: resolvedImageWithDomain,
         },
         image: {
-          alt: "CrownServer - Servizi Cloud per Famiglie",
+          alt: "CrownGaming - Gaming Server Hosting",
         },
       }}
     />

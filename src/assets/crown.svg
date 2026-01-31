@@ -13,6 +13,4 @@
         <path d="M20 120 L50 40 L80 120 L100 20 L120 120 L150 40 L180 120" stroke="url(#gamerGradient)" stroke-width="8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
         <path d="M90 70 L110 70 M100 60 L100 80" stroke="#121212" stroke-width="4" stroke-linecap="round"/>
     </g>
-    
-    <text x="200" y="300" font-family="Arial, sans-serif" font-weight="900" font-size="32" text-anchor="middle" fill="white" letter-spacing="2">CROWN<tspan fill="url(#gamerGradient)">GAMING</tspan></text>
 </svg>

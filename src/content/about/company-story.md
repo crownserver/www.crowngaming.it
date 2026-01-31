@@ -1,37 +1,37 @@
 ---
-title: "La Storia di CrownServer"
-description: "Nati dalla passione per la tecnologia e dalla volontà di rendere il cloud accessibile a tutti"
+title: "La Storia di CrownGaming"
+description: "Nati dalla passione per il gaming e dalla volontà di offrire hosting di qualità superiore"
 lang: "it"
 ---
 
 ## La Nostra Missione
 
-CrownServer nasce dall'idea che la tecnologia cloud dovrebbe essere accessibile a tutti, non solo alle grandi aziende. Crediamo che ogni famiglia e ogni piccola realtà meriti di avere i propri dati al sicuro, protetti e sempre accessibili, senza dover essere esperti di tecnologia.
+CrownGaming nasce dalla passione per il gaming e dalla convinzione che ogni community di giocatori meriti un'infrastruttura server di qualità superiore. Crediamo che il gaming sia più di un hobby: è una passione che connette persone in tutto il mondo, e merita hosting professionale, affidabile e performante.
 
 ## Da Dove Veniamo
 
-La nostra storia inizia nel 2025, quando quattro giovani professionisti appassionati di tecnologia si sono riuniti con un obiettivo comune: creare servizi IT pensati per le persone e le piccole imprese, non solo per le grandi corporation.
+La nostra storia inizia nel 2025, quando quattro giovani professionisti appassionati di tecnologia e gaming si sono riuniti con un obiettivo comune: creare soluzioni di hosting pensate specificatamente per i gamer, non adattate da servizi generici.
 
-Alex Massaroni, sviluppatore con anni di esperienza nello sviluppo di soluzioni cloud, ha incontrato Matteo Munetti e Matteo Fiacco, due sysadmin con una passione condivisa per l'infrastruttura e la sicurezza dei sistemi. A loro si è unito Nicolò Ceccarelli, esperto di marketing digitale, che condivideva la visione di rendere la tecnologia più accessibile e comprensibile.
+Alex Massaroni, sviluppatore con anni di esperienza nello sviluppo di infrastrutture cloud scalabili, ha incontrato Matteo Munetti e Matteo Fiacco, due system administrator con una passione condivisa per l'ottimizzazione delle prestazioni e la sicurezza dei sistemi. A loro si è unito Nicolò Ceccarelli, esperto di community management e marketing digitale, che condivideva la visione di creare un servizio pensato per i gamer.
 
-Lavorando nel settore tech, avevamo visto troppo spesso servizi complicati, interfacce confuse e prezzi poco trasparenti. Volevamo fare le cose diversamente.
+Tutti e quattro siamo gamer attivi e abbiamo vissuto in prima persona le frustrazioni dei servizi di hosting tradizionali: lag improvviso, supporto tecnico che non capisce le esigenze del gaming, configurazioni complicate e prezzi poco chiari.
 
 ## I Nostri Valori
 
-### Semplicità
-Crediamo che la tecnologia debba essere invisibile. I nostri servizi sono progettati per essere così semplici che chiunque possa usarli, dalla nonna al nipote.
+### Prestazioni Senza Compromessi
+Nel gaming, ogni millisecondo conta. Investiamo in hardware di ultima generazione e ottimizzazioni di rete per garantire le migliori prestazioni possibili.
 
-### Sicurezza
-I tuoi dati sono preziosi. Utilizziamo le tecnologie di crittografia più avanzate e manteniamo i massimi standard di sicurezza per proteggere la tua privacy.
+### Protezione Avanzata
+Il tuo server è il cuore della tua community. Protezione DDoS avanzata, backup automatici e monitoring proattivo sono standard, non optional.
 
-### Trasparenza
-Niente costi nascosti, niente clausole scritte in piccolo. Quello che vedi è quello che ottieni, sempre.
+### Supporto Gaming Expert
+Il nostro team non si limita a gestire server: siamo gamer che capiscono le tue esigenze. Supporto tecnico 24/7 da persone che parlano la tua lingua.
 
-### Supporto Locale
-Siamo un'azienda italiana, con server in Europa e supporto clienti in italiano. Parliamo la tua lingua e capiamo le tue esigenze.
+### Trasparenza Totale
+Prezzi chiari, niente costi nascosti, documentazione dettagliata. Quello che vedi è quello che ottieni, sempre.
 
 ## Il Futuro
 
-Il nostro obiettivo è ambizioso: diventare completamente indipendenti entro il 2027, offrendo servizi di consulenza infrastrutturale, supporto sistemistico e hosting web di qualità superiore. Vogliamo essere il punto di riferimento per le famiglie e le piccole imprese italiane che cercano soluzioni IT affidabili, sicure e facili da usare.
+Il nostro obiettivo è diventare il punto di riferimento in Italia per l'hosting di server gaming. Stiamo preparando l'infrastruttura per Minecraft e Hytale, con piani di espansione verso altri giochi popolari.
 
-Unisciti alla nostra waitlist e sii tra i primi a provare CrownServer quando saremo pronti al lancio.
+Unisciti alla nostra waitlist e sii tra i primi a provare CrownGaming quando saremo pronti al lancio.

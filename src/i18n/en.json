@@ -6,50 +6,46 @@
     "social": "Social"
   },
   "hero": {
-    "title": "Simple cloud for the whole family",
-    "subtitle": "Professional and reliable IT services for your business. Quality consulting, support, and hosting.",
+    "title": "Next-generation gaming server hosting",
+    "subtitle": "Professional hosting for Minecraft and Hytale. High performance, minimal latency, and dedicated support for your gaming community.",
     "cta": "Join the Waitlist",
     "learnMore": "Learn More"
   },
   "services": {
-    "title": "Our Services",
-    "subtitle": "Everything you need to protect and manage your data in the cloud",
-    "consulting": {
-      "title": "Infrastructure Consulting",
-      "tagline": "Professional consulting for your IT infrastructure"
+    "title": "Our Servers",
+    "subtitle": "Optimized hosting solutions for every gaming experience",
+    "minecraft": {
+      "title": "Minecraft Hosting",
+      "tagline": "High-performance Minecraft servers for your community"
     },
-    "support": {
-      "title": "System Support",
-      "tagline": "Specialized technical support for your systems"
-    },
-    "hosting": {
-      "title": "Website Hosting",
-      "tagline": "Reliable and high-performance hosting for your website"
+    "hytale": {
+      "title": "Hytale Hosting",
+      "tagline": "Get ready for the future of gaming with optimized Hytale servers"
     }
   },
   "whyUs": {
-    "title": "Why Choose CrownServer",
-    "subtitle": "We're different from typical cloud providers",
+    "title": "Why Choose CrownGaming",
+    "subtitle": "We're not your average hosting provider",
     "reason1": {
-      "title": "Italian Simplicity",
-      "description": "Italian interface, Italian support. No complicated technical terms."
+      "title": "Maximum Performance",
+      "description": "Latest generation hardware and optimized network for minimal latency."
     },
     "reason2": {
-      "title": "Guaranteed Security",
-      "description": "Advanced encryption and servers in Italy to protect your data."
+      "title": "DDoS Protection",
+      "description": "Advanced protection against DDoS attacks to keep your server always online."
     },
     "reason3": {
       "title": "Transparent Pricing",
-      "description": "No hidden costs. Pay only for what you use."
+      "description": "No hidden costs. Pay only for the resources you use."
     },
     "reason4": {
-      "title": "Always Available Support",
-      "description": "Italian team ready to help you when you need it."
+      "title": "Gaming Expert Support",
+      "description": "Team of expert gamers ready to help you 24/7 with any issue."
     }
   },
   "waitlist": {
     "title": "Join the Waitlist",
-    "subtitle": "Be among the first to try CrownServer when we launch our services",
+    "subtitle": "Be among the first to try CrownGaming when we launch our servers",
     "emailPlaceholder": "Your email address",
     "submitButton": "Sign Up",
     "successMessage": "Thank you! We'll contact you soon.",
@@ -61,14 +57,14 @@
     "readMore": "Read More"
   },
   "footer": {
-    "copyright": "Copyright © {year} CrownServer. All rights reserved.",
-    "crownGaming": "Also discover CrownGaming for gaming",
+    "copyright": "Copyright © {year} CrownGaming. All rights reserved.",
+    "crownServer": "Need IT services? Visit CrownServer",
     "quickLinks": "Quick Links",
     "followUs": "Follow Us"
   },
   "contact": {
     "title": "Contact Us",
-    "subtitle": "Have questions? We're here to help",
+    "subtitle": "Have questions? Our team is here to help",
     "email": "Email",
     "social": "Social Media",
     "form": {
@@ -82,12 +78,12 @@
   },
   "about": {
     "title": "About Us",
-    "subtitle": "The team behind CrownServer",
+    "subtitle": "The team behind CrownGaming",
     "foundersTitle": "Our Founders"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Complete cloud solutions for all your needs",
+    "title": "Our Servers",
+    "subtitle": "Professional hosting for the most popular games",
     "features": "Features"
   }
 }
