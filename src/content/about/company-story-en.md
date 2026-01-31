@@ -6,13 +6,15 @@ lang: "en"
 
 ## Our Mission
 
-CrownServer was born from the idea that cloud technology should be accessible to everyone, not just large companies. We believe every family deserves to have their data safe, protected, and always accessible, without needing to be tech experts.
+CrownServer was born from the idea that cloud technology should be accessible to everyone, not just large companies. We believe every family and small business deserves to have their data safe, protected, and always accessible, without needing to be tech experts.
 
 ## Where We Come From
 
-Our story begins in 2024, when four tech-passionate friends came together with a common goal: to create cloud services designed for people, not just businesses. Having worked in the tech industry for years, we had seen too many complicated services, confusing interfaces, and non-transparent pricing.
+Our story begins in 2025, when four young tech professionals came together with a common goal: to create IT services designed for people and small businesses, not just large corporations.
 
-We wanted to do things differently.
+Alex Massaroni, a developer with years of experience in cloud solutions development, met Matteo Munetti and Matteo Fiacco, two sysadmins with a shared passion for infrastructure and system security. They were joined by Nicolò Ceccarelli, a digital marketing expert who shared the vision of making technology more accessible and understandable.
+
+Having worked in the tech industry, we had seen too many complicated services, confusing interfaces, and non-transparent pricing. We wanted to do things differently.
 
 ## Our Values
 
@@ -30,6 +32,6 @@ We're an Italian company, with servers in Italy and customer support in Italian.
 
 ## The Future
 
-We're working to launch our first services in 2026. Our goal is to become the reference point for Italian families looking for reliable, secure, and easy-to-use cloud solutions.
+Our goal is ambitious: to become fully independent by 2027, offering top-quality infrastructure consulting, system support, and web hosting services. We want to be the reference point for Italian families and small businesses looking for reliable, secure, and easy-to-use IT solutions.
 
 Join our waitlist and be among the first to try CrownServer when we're ready to launch.
