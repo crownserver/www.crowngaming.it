@@ -28,7 +28,7 @@ Your data is precious. We use the most advanced encryption technologies and main
 No hidden costs, no fine print clauses. What you see is what you get, always.
 
 ### Local Support
-We're an Italian company, with servers in Europe and customer support in Italian. We speak your language and understand your needs.
+We're an Italian company, with servers in Europe and customer support in Italian. We understand your needs and are always ready to help.
 
 ## The Future
 
