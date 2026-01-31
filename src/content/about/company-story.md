@@ -28,7 +28,7 @@ I tuoi dati sono preziosi. Utilizziamo le tecnologie di crittografia più avanza
 Niente costi nascosti, niente clausole scritte in piccolo. Quello che vedi è quello che ottieni, sempre.
 
 ### Supporto Locale
-Siamo un'azienda italiana, con server in Italia e supporto clienti in italiano. Parliamo la tua lingua e capiamo le tue esigenze.
+Siamo un'azienda italiana, con server in Europa e supporto clienti in italiano. Parliamo la tua lingua e capiamo le tue esigenze.
 
 ## Il Futuro
 
