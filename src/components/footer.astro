@@ -8,43 +8,43 @@ const lang = getLangFromUrl(Astro.url);
 const currentYear = new Date().getFullYear().toString();
 ---
 
-<footer class="my-20 border-t border-gray-200 pt-16">
+<footer class="my-20 border-t border-gray-800 pt-16">
   <Container>
     <div class="grid md:grid-cols-3 gap-12 mb-12">
-      {/* Column 1: Logo & CrownGaming Link */}
+      {/* Column 1: Logo & CrownServer Link */}
       <div>
         <Logo size="medium" />
-        <p class="text-gray-600 mt-4 text-sm leading-relaxed">
+        <p class="text-gray-400 mt-4 text-sm leading-relaxed">
           {t(lang, lang === "en" ? "hero.subtitle" : "hero.subtitle")}
         </p>
         <p class="mt-6 text-sm">
           <a
-            href="https://www.crowngaming.it"
+            href="https://www.crownserver.it"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-[#005bea] hover:underline font-medium"
+            class="text-[#00F0FF] hover:underline font-medium"
           >
-            {t(lang, "footer.crownGaming")} →
+            {t(lang, "footer.crownServer")} →
           </a>
         </p>
       </div>
 
       {/* Column 2: Quick Links */}
       <div>
-        <h3 class="font-bold text-[#333333] mb-4">{t(lang, "footer.quickLinks")}</h3>
+        <h3 class="font-bold text-[#e0e0e0] mb-4">{t(lang, "footer.quickLinks")}</h3>
         <ul class="space-y-3">
           <li>
-            <a href={getLocalizedPath("/products", lang)} class="text-gray-600 hover:text-[#005bea] transition text-sm">
+            <a href={getLocalizedPath("/products", lang)} class="text-gray-400 hover:text-[#00F0FF] transition text-sm">
               {t(lang, "nav.products")}
             </a>
           </li>
           <li>
-            <a href={getLocalizedPath("/about", lang)} class="text-gray-600 hover:text-[#005bea] transition text-sm">
+            <a href={getLocalizedPath("/about", lang)} class="text-gray-400 hover:text-[#00F0FF] transition text-sm">
               {t(lang, "nav.about")}
             </a>
           </li>
           <li>
-            <a href={getLocalizedPath("/contact", lang)} class="text-gray-600 hover:text-[#005bea] transition text-sm">
+            <a href={getLocalizedPath("/contact", lang)} class="text-gray-400 hover:text-[#00F0FF] transition text-sm">
               {t(lang, "nav.contact")}
             </a>
           </li>
@@ -53,14 +53,14 @@ const currentYear = new Date().getFullYear().toString();
 
       {/* Column 3: Social */}
       <div>
-        <h3 class="font-bold text-[#333333] mb-4">{t(lang, "footer.followUs")}</h3>
+        <h3 class="font-bold text-[#e0e0e0] mb-4">{t(lang, "footer.followUs")}</h3>
         <SocialLinks variant="default" />
       </div>
     </div>
 
     {/* Bottom Copyright */}
-    <div class="border-t border-gray-200 pt-8 text-center">
-      <p class="text-sm text-gray-600">
+    <div class="border-t border-gray-800 pt-8 text-center">
+      <p class="text-sm text-gray-400">
         {t(lang, "footer.copyright", { year: currentYear })}
       </p>
     </div>

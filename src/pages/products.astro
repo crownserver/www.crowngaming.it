@@ -56,12 +56,12 @@ const products = (await getCollection("products", ({ data }) => {
               )}
 
               {/* Title */}
-              <h2 class="text-4xl font-bold text-[#333333] mb-4">
+              <h2 class="text-4xl font-bold text-[#e0e0e0] mb-4">
                 {product.data.title}
               </h2>
 
               {/* Tagline */}
-              <p class="text-xl text-gray-600 mb-6">
+              <p class="text-xl text-gray-400 mb-6">
                 {product.data.tagline}
               </p>
 
@@ -73,7 +73,7 @@ const products = (await getCollection("products", ({ data }) => {
               {/* Features List */}
               {product.data.features && product.data.features.length > 0 && (
                 <div class="mb-8">
-                  <h3 class="text-lg font-bold text-[#333333] mb-4">
+                  <h3 class="text-lg font-bold text-[#e0e0e0] mb-4">
                     {t(lang, "products.features")}
                   </h3>
                   <ul class="space-y-3">
@@ -82,7 +82,7 @@ const products = (await getCollection("products", ({ data }) => {
                         <div class="flex-shrink-0 w-6 h-6 gradient-crown rounded-full flex items-center justify-center mt-0.5">
                           <Icon name="bx:check" class="w-4 h-4 text-white" />
                         </div>
-                        <span class="text-gray-700">{feature}</span>
+                        <span class="text-gray-300">{feature}</span>
                       </li>
                     ))}
                   </ul>

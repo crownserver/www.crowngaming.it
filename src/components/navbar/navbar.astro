@@ -25,17 +25,17 @@ const menuitems = [
     title: t(lang, "nav.social"),
     path: "#",
     children: [
-      { title: "Discord", path: "https://discord.gg/crownserver" },
-      { title: "X (Twitter)", path: "https://x.com/crownserver" },
-      { title: "Instagram", path: "https://instagram.com/crownserver" },
-      { title: "TikTok", path: "https://tiktok.com/@crownserver" },
-      { title: "Threads", path: "https://threads.net/@crownserver" },
+      { title: "Discord", path: "https://discord.gg/crowngaming" },
+      { title: "X (Twitter)", path: "https://x.com/crowngaming" },
+      { title: "Instagram", path: "https://instagram.com/crowngaming" },
+      { title: "TikTok", path: "https://tiktok.com/@crowngaming" },
+      { title: "Threads", path: "https://threads.net/@crowngaming" },
     ],
   },
 ];
 ---
 
-<div class="sticky top-0 z-50 bg-white shadow-sm">
+<div class="sticky top-0 z-50 bg-[#0a0a0a] border-b border-gray-800 shadow-sm">
   <Container>
     <header class="flex flex-col lg:flex-row justify-between items-center py-5">
     <Astronav>
@@ -44,7 +44,7 @@ const menuitems = [
           <Logo size="medium" />
         </a>
         <div class="block lg:hidden">
-          <MenuIcon class="w-4 h-4 text-gray-800" />
+          <MenuIcon class="w-4 h-4 text-gray-200" />
         </div>
       </div>
       <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
@@ -64,7 +64,7 @@ const menuitems = [
                   <li>
                     <a
                       href={item.path}
-                      class="flex lg:px-3 py-2 items-center text-gray-600 hover:text-[#005bea] transition">
+                      class="flex lg:px-3 py-2 items-center text-gray-400 hover:text-[#00F0FF] transition">
                       <span> {item.title}</span>
                     </a>
                   </li>
